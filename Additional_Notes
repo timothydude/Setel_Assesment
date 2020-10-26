@@ -1,0 +1,15 @@
+Conceptually, this is how a proper script would work.
+
+1. The script loads the first E-commerce website and searches for iPhone 11.
+2. The script validates that the product loaded is the iPhone 11.
+3. The script recursively goes through the results on the page and stores 
+   website name, product name, product price and product link in a table.
+
+4. The script loads the second E-commerce website and searches for iPhone 11.
+5. The script validates that the product loaded is the iPhone 11.
+6. The script recursively goes through the results on the page and stores 
+   website name, product name, product price and product link in a table.
+   
+7. The script does a VIEW query on both tables and displays results by acsending order of product price. 
+
+
